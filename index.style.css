@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto Slab', 'sans-serif';
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* Шапка */
+.bg {
+    background: url('img/bg.jpg') no-repeat center center/cover;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+/* Шапка */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.logo img {
+    height: 113px;
+    width: 226px;
+    margin-top: 20px;
+    margin-left: 388px;
+    mix-blend-mode: darken;
+}
+
+/*search*/
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    width: 350px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+}
+.search::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+
+
+/* podmeny */
+.podmeny nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    position: absolute;
+    width: 499px;
+    height: 26px;
+    left: 991px;
+    top: 61px;
+    white-space: nowrap;
+}
+
+.podmeny nav ul li {
+    display: inline;
+}
+
+.podmeny nav ul li a {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #111;
+    text-decoration: none;
+    
+}
+
+.podmeny nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Заголовок и кнопка */
+.header-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: -60px;
+    color: #735440;
+    font-weight: 700;
+}
+
+.header-text button {
+    background: #4a8c45;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 400;
+    gap: 10px;
+    padding-top: 16px;
+    padding-right: 31px;
+    padding-bottom: 16px;
+    padding-left: 31px;
+    margin-top: 140px
+    
+}
+
+.header-text button:hover {
+    background: #3b6e36;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap; /* Чтобы элементы переносились */
+    gap: 20px; 
+    justify-content: center; 
+    gap: 120px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.tags span {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #324950;
+    gap: 10px;
+}
+
+.tags img {
+    height: auto;
+    margin-bottom: 5px; 
+}
+.back{
+    background: #F7F7F7;
+    
+}
+.bg2 img  {
+    position: absolute; 
+    top: 1111.16px; 
+    z-index: 1; 
+}
+
+.opis {
+    position: relative; 
+    width: 495px;
+    height: 285px;
+    z-index: 2; 
+    padding-top: 155px;
+    background: none;
+    padding-left: 405px;
+}
+.opis h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #324950;
+    padding-bottom: 20px;
+}
+.opis img{
+    position: relative;
+    top: 0px;
+    padding-bottom: 10px;
+}
+.opis h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 162.7%;
+}
+.Union2{
+    position: relative;
+    padding-left: 930px;
+    z-index: 2; 
+    bottom: 1497px;
+}
+
+.opis2 {
+    position: relative; 
+    width: 495px;
+    height: 285px;
+    z-index: 2; 
+    padding-top: 355px;
+    background: none;
+    padding-left: 1015px;
+}
+.opis2 h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #324950;
+    padding-bottom: 20px;
+}
+.opis2 img{
+    position: relative;
+    top: 0px;
+    padding-bottom: 10px;
+}
+.opis2 h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 162.7%;
+}
+.Rost{
+    position: relative;
+    padding-left: 340px;
+    z-index: 2; 
+    bottom: 1553px;
+    padding-bottom: 100px;
+}
+.but1{
+    position: relative;
+    padding-left: 579px;
+    z-index: 3; 
+    bottom: 1440px;
+    padding-bottom: 10px;
+    height: 90px;
+    width: 90px;
+}
+/*duwn*/
+.container {
+    background: #EDEDED;
+    padding: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+} 
+.container h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+.star{
+    position: relative;
+    top: 0px;
+    padding-bottom: 10px;
+    padding-left: 900px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3e50;
+    padding: 10px;
+
+    display: inline-block;
+    border-radius: 5px;
+}
+.separator {
+    margin: 10px 0;
+    color: #888;
+    font-size: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+    
+}
+.card {
+    width: 250px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    transition: transform 0.2s;
+
+}
+
+.card h3 {
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+.card h3 a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2d8a3e;
+    transition: color 0.2s;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2d8a3e ;
+    
+}
+.card h3 a:hover {
+    color: #1a5d2a;
+}
+.card p {
+    font-size: 18px;
+    color: #555;
+    padding-top: 10px;
+}
+.back2{
+    background: #2D3F45;
+}
+.podfuter {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px; 
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.podfuter nav ul {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.podfuter nav ul li {
+    display: inline;
+}
+
+.podfuter nav ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 142.7%;
+}
+
+.podfuter nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+}
+
+.social-icons img {
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.futer{
+    background: #324950;
+}
+.futer h4{
+    display: flex;
+    justify-content: center; 
+    padding: 15px 0;
+    font-weight: 400;
+    color: #B9B9B9;
+    font-family: 'Roboto';
+    font-size: 14px;
+    
+}
